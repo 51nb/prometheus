@@ -11,7 +11,7 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-package ec2
+package ec2 // import "github.com/51nb/prometheus/discovery/ec2"
 
 import (
 	"fmt"

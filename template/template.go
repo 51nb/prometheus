@@ -11,7 +11,7 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-package template
+package template // import "github.com/51nb/prometheus/template"
 
 import (
 	"bytes"

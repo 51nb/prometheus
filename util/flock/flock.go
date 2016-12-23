@@ -16,7 +16,7 @@
 // standard library does not provide this functionality. Once this package has
 // proven to work as expected, we should probably turn it into a separate
 // general purpose package for humanity.
-package flock
+package flock // import "github.com/51nb/prometheus/util/flock"
 
 import (
 	"os"

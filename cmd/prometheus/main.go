@@ -12,7 +12,7 @@
 // limitations under the License.
 
 // The main package for the Prometheus server executable.
-package main
+package main // import "github.com/51nb/prometheus/cmd/prometheus"
 
 import (
 	"flag"

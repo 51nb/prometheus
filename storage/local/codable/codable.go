@@ -28,7 +28,7 @@
 //
 // Maps are encoded as the number of mappings as a varint, followed by the
 // mappings, each of which consists of the key followed by the value.
-package codable
+package codable // import "github.com/51nb/prometheus/storage/local/codable"
 
 import (
 	"bytes"

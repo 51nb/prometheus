@@ -11,7 +11,7 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-package influxdb
+package influxdb // import "github.com/51nb/prometheus/storage/remote/influxdb"
 
 import (
 	"math"

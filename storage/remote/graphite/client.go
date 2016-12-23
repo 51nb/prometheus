@@ -11,7 +11,7 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-package graphite
+package graphite // import "github.com/51nb/prometheus/storage/remote/graphite"
 
 import (
 	"bytes"

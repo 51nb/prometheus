@@ -11,7 +11,7 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-package relabel
+package relabel // import "github.com/51nb/prometheus/relabel"
 
 import (
 	"crypto/md5"
@@ -87,13 +87,13 @@ func relabel(labels model.LabelSet, cfg *config.RelabelConfig) model.LabelSet {
 		}
 		labels = out
 	case config.RelabelLabelDrop:
-		for ln, _ := range labels {
+		for ln := range labels {
 			if cfg.Regex.MatchString(string(ln)) {
 				delete(labels, ln)
 			}
 		}
 	case config.RelabelLabelKeep:
-		for ln, _ := range labels {
+		for ln := range labels {
 			if !cfg.Regex.MatchString(string(ln)) {
 				delete(labels, ln)
 			}

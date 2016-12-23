@@ -11,7 +11,7 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-package discovery
+package discovery // import "github.com/51nb/prometheus/discovery"
 
 import (
 	"fmt"

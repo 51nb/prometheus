@@ -11,7 +11,7 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-package main
+package main // import "github.com/51nb/prometheus/documentation/examples/remote_storage"
 
 import (
 	"fmt"

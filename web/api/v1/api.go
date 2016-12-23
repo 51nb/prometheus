@@ -11,7 +11,7 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-package v1
+package v1 // import "github.com/51nb/prometheus/web/api/v1"
 
 import (
 	"encoding/json"

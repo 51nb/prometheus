@@ -11,7 +11,7 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-package stats
+package stats // import "github.com/51nb/prometheus/util/stats"
 
 // QueryTiming identifies the code area or functionality in which time is spent
 // during a query.

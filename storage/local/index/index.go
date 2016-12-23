@@ -14,7 +14,7 @@
 // Package index provides a number of indexes backed by persistent key-value
 // stores.  The only supported implementation of a key-value store is currently
 // goleveldb, but other implementations can easily be added.
-package index
+package index // import "github.com/51nb/prometheus/storage/local/index"
 
 import (
 	"os"

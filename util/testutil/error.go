@@ -11,7 +11,7 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-package testutil
+package testutil // import "github.com/51nb/prometheus/util/testutil"
 
 // ErrorEqual compares Go errors for equality.
 func ErrorEqual(left, right error) bool {

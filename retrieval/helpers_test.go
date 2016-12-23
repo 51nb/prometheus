@@ -11,7 +11,7 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-package retrieval
+package retrieval // import "github.com/51nb/prometheus/retrieval"
 
 import (
 	"github.com/prometheus/common/model"
